@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,26 +8,41 @@
     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+
+
     <section class="topo">
-        <a href="index.html"><img src="logo.png" alt=""></a>
-        <ul>
-            <a href="index.html"><li>Página inicial</li></a>
-            <a href="#produtos"><li>Produtos</li></a>
-            <a href="#beneficios"><li>Benefícios</li></a>
-            <a href="#sobre-nos"><li>Sobre nós</li></a>
-            <a class="botao-primario" href="">Comprar agora!</a>
-        </ul>
+        <a href="index.html"><img src="logo.png" alt="" /></a>
+        <nav class="menu-lateral">
+            <ion-icon class="botao-menu-close" name="close-outline" onclick="toggleMenu()"></ion-icon>
+            <ul>
+                <a href="index.html">
+                    <li>Página inicial</li>
+                </a>
+                <a href="#produtos">
+                    <li>Produtos</li>
+                </a>
+                <a href="#beneficios">
+                    <li>Benefícios</li>
+                </a>
+                <a href="#sobre-nos">
+                    <li>Sobre nós</li>
+                </a>
+                <a class="botao-primario" href="">Comprar agora!</a>
+            </ul>
+        </nav>
+        <ion-icon class="botao-menu" name="menu-outline" onclick="toggleMenu()"></ion-icon>
     </section>
 
     <section class="header">
         <section class="esquerda">
-        <h1>Você esta <br>
-        com fome <br>
-    de Bolo?</h1>
-        <p>Explore um mundo de emoções sonoras!
-            Delicie-se com nossos bolos artesanais!</p>
-        <a class="botao-primario" href="">Comprar agora!</a>
+            <h1>Você esta <br>
+                com fome <br>
+                de Bolo?</h1>
+                Delicie-se com nossos bolos artesanais!</p>
+            <a class="botao-primario" href="">Comprar agora!</a>
         </section>
         <section class="direita">
             <img src="imagem topo.png" alt="">
@@ -58,26 +74,26 @@
                 <section class="beneficio-titulo">
                     <ion-icon name="checkmark-circle"></ion-icon>
                     <h4>Ingredientes de qualidade</h4>
-            </section>
-            <p>Ingredientes de alta qualidade, <br>
-                saudáveis e com excelente <br>
-                custo-beneficio.</p>
+                </section>
+                <p>Ingredientes de alta qualidade, <br>
+                    saudáveis e com excelente <br>
+                    custo-beneficio.</p>
             </section>
 
             <section class="beneficio">
                 <section class="beneficio-titulo">
                     <ion-icon name="checkmark-circle"></ion-icon>
                     <h4>Bolos sem conservantes</h4>
-            </section>
-            <p> Bolos mais saúdaveis devido a auxência de conservantes.</p>
+                </section>
+                <p> Bolos mais saúdaveis devido a auxência de conservantes.</p>
             </section>
 
             <section class="beneficio">
                 <section class="beneficio-titulo">
                     <ion-icon name="checkmark-circle"></ion-icon>
                     <h4>Maior personalização</h4>
-            </section>
-            <p>A natureza artesanal dos bolos permite uma maior personalização.</p>
+                </section>
+                <p>A natureza artesanal dos bolos permite uma maior personalização.</p>
             </section>
         </section>
         <a class="botao-primario" href="">Comprar agora!</a>
@@ -89,15 +105,24 @@
         </section>
         <section class="direita">
             <h2>Sobre nós</h2>
-            <p> Bem-vindo à nossa empresa de bolos artesanais! Aqui, estamos comprometidos em oferecer a você uma experiência única e deliciosa. Nossos bolos são feitos com ingredientes frescos e de alta qualidade, cuidadosamente selecionados para garantir o melhor sabor e textura.
-            <br><br>
-                Acreditamos que os bolos artesanais têm um sabor especial, pois são feitos com amor e dedicação. Cada bolo é preparado individualmente, garantindo que você receba um produto exclusivo e personalizado.
-               <br><br>
-                 Nossa prioridade é a sua satisfação. Por isso, nos esforçamos para criar bolos que superem suas expectativas. Seja para uma ocasião especial ou apenas para satisfazer um desejo doce, nossos bolos artesanais são a escolha perfeita.
-               
-                Explore nosso menu diversificado de sabores irresistíveis e deixe-se envolver pela magia dos bolos artesanais. Estamos ansiosos para compartilhar essa experiência única com você. Faça seu pedido agora e descubra o verdadeiro prazer dos bolos feitos com amor e dedicação. Compartilhe essa delícia com seus amigos e familiares também!</p>
+            <p> Bem-vindo à nossa empresa de bolos artesanais! Aqui, estamos comprometidos em oferecer a você uma
+                experiência única e deliciosa. Nossos bolos são feitos com ingredientes frescos e de alta qualidade,
+                cuidadosamente selecionados para garantir o melhor sabor e textura.
+                <br><br>
+                Acreditamos que os bolos artesanais têm um sabor especial, pois são feitos com amor e dedicação. Cada
+                bolo é preparado individualmente, garantindo que você receba um produto exclusivo e personalizado.
+                <br><br>
+                Nossa prioridade é a sua satisfação. Por isso, nos esforçamos para criar bolos que superem suas
+                expectativas. Seja para uma ocasião especial ou apenas para satisfazer um desejo doce, nossos bolos
+                artesanais são a escolha perfeita.
+
+                Explore nosso menu diversificado de sabores irresistíveis e deixe-se envolver pela magia dos bolos
+                artesanais. Estamos ansiosos para compartilhar essa experiência única com você. Faça seu pedido agora e
+                descubra o verdadeiro prazer dos bolos feitos com amor e dedicação. Compartilhe essa delícia com seus
+                amigos e familiares também!
+            </p>
             <a class="botao-primario" href="">Comprar agora!</a>
-            </section>
+        </section>
     </section>
 
     <footer>
@@ -128,12 +153,14 @@
             <section class="icons">
                 <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
                 <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
-                <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href=""><ion-icon name="logo-whatsapp"></ion-icon></a>
                 <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
             </section>
         </section>
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
